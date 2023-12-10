@@ -184,7 +184,7 @@ $pdf->SetTextColor(0, 0, 0);
 $pdf->Cell(0,7,utf8_decode('« Là où la volonté est grande, les difficultés diminuent » Nicolas MACHIAVEL'),0,1,'C',false);
 //
 //$pdf->Output('D','certificat_scolarite_USIA_ESSIG.pdf',true);
-$pdf->Output('I','certificat_scolarite_USIA_ESSIG.pdf',true);
+$pdf->Output('F','certificat_scolarite_USIA_ESSIG.pdf',true);
 
 
 ?>
