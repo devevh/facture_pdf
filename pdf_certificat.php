@@ -88,8 +88,8 @@ else {
 	$Y=intval($dimMax*$hauteur/$largeur);
 }
 echo "debut ecriture du pdf avec l'image ", $image;
-//$pdf = new FPDF();
-$pdf = new AlphaPDF();
+$pdf = new FPDF();
+//$pdf = new AlphaPDF();
 $pdf->AddPage();
 $pdf->SetTitle('Certificat de scolarité',$isUTF8);
 //
